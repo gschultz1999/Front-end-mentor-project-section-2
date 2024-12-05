@@ -47,7 +47,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.3rem;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 1rem;
 }
 
@@ -64,7 +64,7 @@ body {
     color: hsl(228, 12%, 48%);
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 1rem;
     line-height: 1.8;
 }
@@ -96,7 +96,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    background-color: green;
+    background-color: hsl(158, 36%, 37%);
     color: white;
     border-radius: 0.5rem;
     padding: 1em;
@@ -106,6 +106,7 @@ body {
 }
 
 @media (min-width: 589px) {
+
     .image {
         display: none;
     }
@@ -117,8 +118,9 @@ body {
 
     .hero {
         flex-direction: row;
+        align-items: space-between;
         padding: 0;
-        max-width: 800px;
+        max-width: 600px;
     }
 
     .image__desktop {
@@ -126,8 +128,10 @@ body {
     }
 
     .content {
-        padding: 0 2rem 0 2rem
-    }
+        height: 100%;
+        padding: 2rem;
+        border: 1px solid black;
+        justify-content: space-between;    }
 
     .content__perfume {
         padding-top: 0;
